@@ -6,7 +6,7 @@ html, body {
   margin: 0;
   border: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 main {
@@ -15,12 +15,37 @@ main {
   padding: 20px;
 }
 
-main > h1 {
-  text-align: center;
-  font-size: 1.5em;
+.headerBox {
+  padding-top: 5%;
+  border: 5px outset #7090FF;
+  background-color: #C0D7FF;
+  min-height: 100px;
+  min-height: 200px;
 }
 
-main > p {
+.headerTopic {
+  padding: 0;
+  margin: 0;
   text-align: center;
-  font-size: 1.0em;
+  font-size: 4vw;
+}
+
+.dividerLine {
+  height: 1px;
+  width: 50%;
+  margin: auto;
+  background-color: #000000;
+}
+
+.dividerInvisible {
+  height: 1vW;
+  width: 50%;
+  margin: auto;
+}
+
+.headerText {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 2vw;
 }
